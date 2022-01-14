@@ -1,0 +1,671 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+/* header */
+
+.header-wrapper {
+    width: 100%;
+    height: 40px;
+    background-color: #f3f3f3;
+}
+
+.header {
+    margin: auto;
+    width: 1400px;
+    ;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+    float: left;
+    padding-top: 10px;
+}
+
+.image img {
+    width: 20px;
+    height: 20px;
+}
+
+.hjs {
+    float: right;
+    padding-top: 10px;
+}
+
+.hjs a {
+    text-decoration: none;
+    color: black;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+
+/* nav */
+
+.menu-wrapper {
+    width: 100%;
+    height: 70px;
+    float: left;
+    background-color: #fff;
+}
+
+.menu {
+    margin: auto;
+    width: 1400px;
+    height: 70px;
+}
+
+.logo {
+    float: left;
+    height: 80px;
+    width: 100px;
+    padding-top: 5px;
+}
+
+.logo img {
+    height: 70px;
+    width: 80px;
+    padding-right: 10px;
+    margin-left: -10px;
+}
+
+.nav {
+    height: 80px;
+    width: 1000px;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 150px;
+}
+
+.nav li {
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style: none;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.nav a:hover {
+    border-bottom: 2px solid #000;
+}
+
+.search {
+    background-color: #f3f3f3;
+    width: 170px;
+    height: 40px;
+    border-radius: 100px;
+    float: left;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+.srch-hovr {
+    width: 42px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+}
+
+.search-text {
+    width: 127px;
+    height: 40px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(209, 206, 206);
+    padding-top: 10px;
+    border-radius: 0 40px 40px 0;
+}
+
+.search:hover {
+    background-color: #e9e8e8;
+}
+
+.search i {
+    font-size: 18px;
+    padding-top: 12px;
+    padding-left: 10px;
+    color: #000;
+}
+
+.srch-hovr:hover {
+    background-color: rgb(119, 118, 118);
+}
+
+.like-icon {
+    width: 45px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.like-icon i {
+    font-size: 18px;
+    padding-left: 13px;
+    padding-top: 11px;
+    color: #000;
+}
+
+.like-icon:hover {
+    background-color: #e9e8e8;
+}
+
+.offer {
+    height: auto;
+    width: 100%;
+    background-color: #f3f3f3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    float: left;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.offer span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.offer a {
+    color: black;
+}
+
+
+/* banner */
+
+.banner-wrapper {
+    height: auto;
+    width: 100%;
+    float: left;
+}
+
+.banner {
+    height: auto;
+    width: 1400px;
+    margin: auto;
+}
+
+.banner img {
+    height: 800px;
+    width: 1400px;
+}
+
+
+/* rise together */
+
+.rise-wrapper {
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.rise {
+    margin: auto;
+    width: 1400px;
+    height: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    ;
+}
+
+.content-rise {
+    margin: auto;
+    width: 850px;
+    height: auto;
+    line-height: 30px;
+}
+
+.rise h1 {
+    font-weight: 400;
+    font-size: 60px;
+    margin-top: 12px;
+    font-family: 'Anton', sans-serif;
+}
+
+.rise-text {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.rise p {
+    padding-top: 22px;
+}
+
+.shop {
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 100px;
+    font-size: 18px;
+    padding-top: 5px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.rise a {
+    text-decoration: none;
+}
+
+.rise a :hover {
+    background-color: rgb(56, 55, 55);
+}
+
+
+/* gym */
+
+.gym-wrapper {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.gym {
+    margin: auto;
+    height: 700px;
+    width: 1400px;
+    background-image: url(images/Nike_Epic_Lux_Printed_Tight_8_hd_1600.jpg);
+    margin-bottom: 70px;
+}
+
+.new-you {
+    float: left;
+    width: 330px;
+    height: 500px;
+    padding-left: 40px;
+    margin-top: -20px;
+}
+
+.new-you h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+    color: #000;
+    line-height: 70px;
+}
+
+.new-you p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.shop-bt {
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 100px;
+    font-size: 18px;
+    padding-top: 5px;
+    margin: auto;
+    margin-bottom: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+    ;
+}
+
+.gym a {
+    text-decoration: none;
+}
+
+.shop-bt:hover {
+    background-color: rgb(56, 55, 55);
+}
+
+.clash-collection {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-bottom: 200px;
+}
+
+.clash {
+    margin: auto;
+    width: 1400px;
+    height: auto;
+}
+
+.clash h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.clash-grid {
+    width: 1400px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clash-grid img {
+    width: 450px;
+}
+
+.clash-grid h4 {
+    margin-top: 5px;
+    font-weight: 400;
+    color: black;
+}
+
+.clash-grid p {
+    margin-top: -15px;
+    color: rgb(119, 118, 118);
+    font-size: 15px;
+}
+
+.clash-grid a {
+    text-decoration: none;
+}
+
+.price {
+    float: right;
+    width: 100px;
+    height: 20px;
+    margin-top: -60px;
+    padding-left: 40px;
+    padding-top: 6px;
+    color: black;
+}
+
+.trending-wrapper {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.trending {
+    margin: auto;
+    width: 1400px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.trending h2 {
+    font-weight: 400;
+}
+
+.trend {
+    background-image: url(images/bron-james-3.jpg);
+    width: 1400px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0px;
+}
+
+.content-trend a :hover {
+    background-color: rgb(56, 55, 55);
+}
+
+.content-trend h1 {
+    font-weight: 400;
+    font-size: 60px;
+    margin-top: 12px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.content-trend p {
+    text-align: center;
+}
+
+.content-trend a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.shop2 {
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 100px;
+    font-size: 18px;
+    padding-top: 10px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.miss-wrapper {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.miss {
+    margin: auto;
+    width: 1400px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.miss h2 {
+    font-weight: 400;
+}
+
+.icon-wrapper {
+    width: 100%;
+    height: auto;
+}
+
+.icon {
+    margin: auto;
+    width: 1200px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid {
+    width: 300px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+    ;
+}
+
+.grid ul {
+    list-style: none;
+}
+
+.grid h5 {
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+.grid li {
+    line-height: 40px;
+    color: rgb(139, 139, 139);
+}
+
+.grid a {
+    text-decoration: none;
+}
+
+.grid li:hover {
+    color: black;
+}
+
+.foot-wrapper {
+    height: 300px;
+    background-color: black;
+    float: left;
+    width: 100%;
+    float: left;
+}
+
+.foot {
+    margin: auto;
+    height: 300px;
+    width: 1400px;
+    border-bottom: 1px solid rgb(139, 139, 139);
+}
+
+.about-grid {
+    width: 900px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.aboutgrid {
+    width: 200px;
+    height: 300px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+}
+
+.aboutgrid h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 12px;
+}
+
+.aboutgrid ul {
+    list-style: none;
+}
+
+.aboutgrid li {
+    line-height: 30px;
+    color: rgb(139, 139, 139);
+}
+
+.aboutgrid a {
+    text-decoration: none;
+}
+
+.aboutgrid h6 {
+    padding-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 12px;
+}
+
+.aboutgrid a :hover {
+    color: white;
+}
+
+.logos {
+    width: 600px;
+    ;
+    height: 300px;
+    margin-left: 600px;
+    color: rgb(139, 139, 139);
+    display: flex;
+    font-size: 25px;
+}
+
+.logos li {
+    list-style: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 50px;
+}
+
+.logos a {
+    color: rgb(139, 139, 139)
+}
+
+.logos li :hover {
+    color: white;
+}
+
+.footer-wrapper {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    float: left;
+}
+
+.footer {
+    margin: auto;
+    height: 50px;
+    width: 1400px;
+}
+
+.svg {
+    float: left;
+    padding-top: 10px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.india {
+    float: left;
+    padding-top: 11px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.ft {
+    float: left;
+    width: 300px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(139, 139, 139);
+    padding-top: 5px;
+}
+
+.ft2 {
+    float: left;
+    width: 600px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(139, 139, 139);
+    float: right;
+    padding-left: 200px;
+    padding-top: 15px;
+}
+
+.ft2 a {
+    text-decoration: none;
+    color: rgb(139, 139, 139);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.ft2 :hover {
+    color: #fff;
+}
